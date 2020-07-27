@@ -3,11 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet"/>
 	<title>CODEFORCES AIO</title>
 </head>
-
 <body>
-	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src = "script.js"></script>
 		
 	<ul class="nav">
 		<li> <a href="#">Home</a> </li>
@@ -17,11 +17,28 @@
 		<li> <a href="#">Compiler</a> </li>
 	</ul>
 
-	<div><p style="text-align: center;">This is gonna be awesome.</p></div>
+<!--	<div><p style="text-align: center;">This is gonna be awesome.</p></div>-->
 
 	<input id="text1" type="text" placeholder="Enter your Username">
 	<button id="btn1" onclick="disp()">Enter</button>
-
+    
+    <div class="container">
+      <div class="w3-row">
+        <div class="w3-col s3 w3-green w3-center">
+          <p><img id="image-id" src="" /> </p>
+        </div>
+        <div class="w3-col s9 w3-dark-grey w3-center">
+          <p id = "info">
+		      Handle : <span id = "handle"></span>
+		      Rank : <span id = "rank"></span> 
+              Rating : <span id = "rating"></span>
+		      Max Rating : <span id = "maxrating"></span>   
+	      </p>
+        </div>
+      </div>
+    </div>
+    
+    
+	
 </body>
-
-</html>
+</html> 
