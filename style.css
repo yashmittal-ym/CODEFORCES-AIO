@@ -47,3 +47,36 @@ input[type=text] {
 #btn1 {
 	margin-left: 600px;
 }
+
+#info {
+	font-size: 20px;
+	padding: 20px;
+	font-family: 'Roboto', cursive;
+	padding-left: 30px;
+	background-color: #aaa;
+    float: right;
+}
+
+#handle {
+	padding-right: 50px;
+}
+
+
+#rank {
+	padding-right: 50px;
+}
+
+#rating {
+	padding-right: 50px;
+}
+
+#maxrating {
+	padding-right: 50px;
+}
+
+#image-id {
+    width: 150spx;
+    height: 80px;
+    padding-right: 50px;
+    float: left;
+}
